@@ -1,0 +1,100 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "air-quality-time-series",
+  "dataset_size": 1231620,
+  "description": "",
+  "download_size": 819547,
+  "features": {
+    "Date": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Time": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "CO(GT)": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "PT08.S1(CO)": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "NMHC(GT)": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "C6H6(GT)": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "PT08.S2(NMHC)": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "NOx(GT)": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "PT08.S3(NOx)": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "NO2(GT)": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "PT08.S4(NO2)": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "PT08.S5(O3)": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "T": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "RH": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "AH": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2051167,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 862017,
+      "num_examples": 6549,
+      "dataset_name": "air-quality-time-series"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 123201,
+      "num_examples": 936,
+      "dataset_name": "air-quality-time-series"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 246402,
+      "num_examples": 1872,
+      "dataset_name": "air-quality-time-series"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,7 @@
+Measurement,Value
+Initial Training Loss,0.10941590778529645
+Final Training Loss,0.0364000189738969
+Initial Validation Loss,0.14074933694468605
+Final Validation Loss,0.19181595908270943
+Best Validation Loss,0.14074933694468605
+Best Epoch,1.0
